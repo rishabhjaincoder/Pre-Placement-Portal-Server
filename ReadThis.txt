@@ -1,0 +1,40 @@
+to start with using mongodb in your machine
+	-> create a folder data inside the folder mondodb, all the files are going to store in 
+		here for this project
+	-> in cmd write	mongod --dbpath=data --bind_ip 127.0.0.1
+	-> then open another cmd anywhere and write mongo
+	-> this will start default repl for using mongo with default port number
+
+commands:
+	-> use pre-placement-portal	to create a database if doesn't exists
+
+
+test user
+{
+    "username":"rishabh@gmail.com",
+    "password":"jims@123",
+    "firstname":"rishabh",
+    "lastname":"jain",
+    "role":"student",
+    "phone":"7838892750",
+    "semester":"1"
+},
+{
+    "username":"rishi@gmail.com",
+    "password":"jims@123",
+    "firstname":"rishabh",
+    "lastname":"jain",
+    "role":"student",
+    "phone":"7838892750",
+    "semester":"2"
+},
+{
+    "username":"admin@gmail.com",
+    "password":"jims@123",
+	"admin":"true",
+	"semester":"",
+    "firstname":"rishabh",
+    "lastname":"jain",
+	"role":"admin",
+    "phone":"7838892750"
+}
